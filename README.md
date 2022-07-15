@@ -4,8 +4,6 @@ Get Travis CI remaining OSS credits on an account.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
     $ gem install credits
 
 ## Usage
