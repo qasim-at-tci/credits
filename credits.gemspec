@@ -8,14 +8,14 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Qasim Abdullah']
   spec.email         = ['qasim.abdullah@travis-ci.org']
 
-  spec.summary       = 'POC'
-  spec.homepage      = 'https://github.com/test-runs-tci/travis-test-builds'
+  spec.summary       = 'Get Travis CI remaining OSS credits on an account.'
+  spec.homepage      = 'https://github.com/qasim-at-tci/credits'
   spec.license       = 'MIT'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.3.0')
 
   spec.metadata['homepage_uri'] = spec.homepage
-  spec.metadata['source_code_uri'] = 'https://github.com/test-runs-tci/travis-test-builds'
-  spec.metadata['changelog_uri'] = 'https://github.com/test-runs-tci/travis-test-builds'
+  spec.metadata['source_code_uri'] = 'https://github.com/qasim-at-tci/credits'
+  spec.metadata['changelog_uri'] = 'https://github.com/qasim-at-tci/credits'
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
