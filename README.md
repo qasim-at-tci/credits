@@ -7,8 +7,9 @@ Get Travis CI remaining OSS credits on an account.
     $ gem install credits
 
 ## Usage
-TRAVIS_TOKEN: Visit https://app.travis-ci.com/account/preferences and click on COPY TOKEN under API authentication.
-USERNAME: GitHub End User / Organization username
+>TRAVIS_TOKEN: Visit https://app.travis-ci.com/account/preferences and click on COPY TOKEN under API authentication.
+
+>USERNAME: GitHub End User / Organization username
 
     $ credits remaining TRAVIS_TOKEN USERNAME
 
