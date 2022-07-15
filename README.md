@@ -1,5 +1,4 @@
-[![Gem Version](https://badge.fury.io/rb/credits.svg)](https://badge.fury.io/rb/credits)
-# Credits
+# Credits [![Gem Version](https://badge.fury.io/rb/credits.svg)](https://badge.fury.io/rb/credits)
 
 Get Travis CI remaining OSS credits on an account.
 
