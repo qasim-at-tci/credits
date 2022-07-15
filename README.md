@@ -17,7 +17,7 @@ Get Travis CI remaining OSS credits on an account.
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The gem is available as open source under the terms of the [MIT License](https://github.com/qasim-at-tci/credits/blob/main/LICENSE.txt).
 
 ## Code of Conduct
 
