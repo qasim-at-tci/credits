@@ -75,6 +75,6 @@ module Credits
     else
       puts "ERROR"
     end
-    puts "Total Credits Consumed: #{@total} credits"
+    puts "Total Credits Consumed: #{@total} credits" if @total > 0
   end
 end
