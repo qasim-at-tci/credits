@@ -50,4 +50,31 @@ module Credits
       print 'Wrong token or username'
     end
   end
+
+  def self.request_usage(from, to, token, username)
+    @total = 0
+    @url = "https://api.travis-ci.com/v3/owner/github/#{username}/executions_per_repo?from=#{from}&to=#{to}"
+
+    headers = {
+      'Authorization' => "token #{token}",
+      'Content-Type' => 'application/json',
+      'Accept' => 'application/json',
+      'Travis-API-Version' => '3',
+    }
+    response = HTTParty.get(
+      @url,
+      query: { format: :json },
+      headers: headers
+    )
+
+    if response.code == 200
+      response['executionsperrepo'].each do |rec|
+        puts "Credits consumed for '#{rec['os']}'' builds for repository '#{rec['repository']['name']}' are '#{rec['credits_consumed']}'"
+        @total += rec['credits_consumed'].to_i
+      end
+    else
+      puts "ERROR"
+    end
+    puts "Total Credits Consumed: #{@total} credits"
+  end
 end
