@@ -1,12 +1,12 @@
 # Credits [![Gem Version](https://badge.fury.io/rb/credits.svg)](https://badge.fury.io/rb/credits)
 
-Get Travis CI remaining OSS credits on an account.
+Get Travis CI remaining OSS credits on an account and the account usage.
 
 ## Installation
 
     $ gem install credits
 
-## Usage
+## How to:
 >TRAVIS_TOKEN: Visit https://app.travis-ci.com/account/preferences and click on COPY TOKEN under API authentication.
 
 >USERNAME: GitHub End User / Organization username
