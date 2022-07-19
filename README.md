@@ -13,10 +13,10 @@ Get Travis CI remaining OSS credits on an account.
 
 >FROM: In format 2022-01-01
 
->to: In format 2022-01-30
+>TO: In format 2022-01-30
 
     $ credits remaining TRAVIS_TOKEN USERNAME
-    $ credits usage from to TRAVIS_TOKEN USERNAME
+    $ credits usage FROM TO TRAVIS_TOKEN USERNAME
 
 
 ## License
